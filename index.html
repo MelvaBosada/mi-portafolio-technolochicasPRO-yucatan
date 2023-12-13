@@ -1,12 +1,333 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Melva Santos</title>
-    
-</head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Portafolio">
+  <meta name="keywords" content="HTML, CSS, JavaScript, React">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Melva Santos</title>
+  <!-- Favicon -->
+  <link rel="icon" type="imagenpestaña" href="assets/icon.png">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- Iconos de Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- CSS -->
+  <link href="style.css" rel="stylesheet">
+
 <body>
+
+
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+          <img src="assets/icono3.png" width="50" alt="Logo">
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonios"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <section class="hero align-items-stretch">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+      <div class="contener">
+        <img class="cara" src="assets/foto.jpeg" alt="Foto de Jane Doe">
+      </div>
+      <h1>Hola, soy Melva Santos</h1>
+      <h2 class="text-primary mb-4" id="typewriter"></h2>
+    </div>
+    <div class="hero-inferior">
+      <img class="gato" src="assets/gatito.png" alt="Gatito negro">
+    </div>
+  </section>
+
+  <!-- Sobre mi -->
+  <section id="sobre-mi" class="sobre-mi seccion-oscura">
+    <div class="contenedor">
+      <h2 class="seccion-titulo">Conoceme</h2>
+      <p class="seccion-texto">Soy una estudiante apasionada de Entornos Virtuales con una sólida formación en TICs
+        y Diseño Web ha impulsado mi interés en el mundo digital y los negocios en
+        línea. Estoy en constante aprendizaje y comprometida con mejorar mis
+        habilidades técnicas, especialmente en el diseño web y la gestión de entornos
+        virtuales.</p>
+      <p class="seccion-texto">
+        Como diseñador web, mi enfoque se centra en crear experiencias digitales cautivadoras y funcionales. Mi
+        portafolio es el reflejo de mi pasión por combinar creatividad y habilidades técnicas para dar vida a proyectos
+        web innovadores
+      </p>
+    </div>
+  </section>
+
+
+  <section class="experiencia seccion-clara">
+    <div class="container text-center">
+      <div class="row">
+
+
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-filetype-html"></i>
+          <p class="experiencia-titulo">Lenguajes</p>
+          <p>
+            <ul>
+            <li>HTML: Me desenvuelvo con soltura en la creación de estructuras sólidas y semánticas en cada proyecto.</li>
+
+            <li> Mi pasión por el diseño web se refleja en la habilidad para transformar ideas en interfaces atractivas y responsivas.</li>
+            
+            <li>JavaScript: Me apasiona la interactividad en la web. Utilizo JavaScript para dotar a mis proyectos de dinamismo.</li>
+            
+            En mi enfoque como desarrollador, combino estas habilidades para ofrecer soluciones completas y atractivas en cada proyecto, buscando siempre alcanzar la excelencia en el diseño y la funcionalidad web.
+          </ul>
+          </p>
+
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">HTML</span>
+            <span class="badge text-bg-primary">CSS</span>
+            <span class="badge text-bg-primary">JavaScript</span>
+          </div>
+        </div>
     
+
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-person-lines-fill"></i>
+          <p class="experiencia-titulo">Colaboración</p>
+          <p>Me desenvuelvo cómodamente en entornos colaborativos, aportando ideas y escuchando activamente las de mis compañeros. 
+            Contribuyo con un enfoque proactivo para alcanzar metas colectivas y fomentar un ambiente de trabajo armonioso.
+            Mi capacidad para trabajar en equipo se basa en la colaboración, la comunicación efectiva y la disposición
+             para contribuir al éxito colectivo, priorizando siempre el logro de objetivos en conjunto.
+
+
+          </p>
+        </div>
+      
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-people-fill"></i>
+          <p class="experiencia-titulo">Adaptabilidad y apoyo</p>
+          <p>
+            <ul>
+            <li>Flexibilidad: Mi capacidad para adaptarme a diferentes roles y responsabilidades dentro del equipo me permite contribuir de manera efectiva en diferentes situaciones.</li>
+            <li>Resolución de conflictos: Encuentro soluciones constructivas en momentos de desacuerdo o dificultades dentro del equipo, manteniendo siempre un enfoque en la búsqueda de consensos.</li>
+            <li>Apoyo a colegas: Me considero un miembro de equipo solidario y disponible, dispuesto a brindar apoyo a mis compañeros en momentos de necesidad. </li>
+         </ul>
+          </p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">TecnolochicasPRO</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+    <h2 class="seccion-titulo texto-negro">Mis proyectos</h2>
+    <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente en el curso de
+      TecnolochicasPRO</h3>
+    <div class="container text-center proyectos-contenedor">
+      <div class="row">
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="assets/proyec1.jpeg" alt="Proye">
+            <div class="overlay">
+              <p>Proyecto 1</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/MelvaBosada/Miprimera-pagina" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="assets/proyec2.jpg" alt="Proye 2">
+            <div class="overlay">
+              <p>Proyecto 2</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/MelvaBosada/google-clon" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="#/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="assets/proyec3.jpg" alt="Proye 3">
+            <div class="overlay">
+              <p>Proyecto 3</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/MelvaBosada/mi-portafolio-technolochicasPRO-yucatan" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="#/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+
+  
+  <section id="codigos" class="codigos seccion-clara">
+    <h2 class="seccion-titulo">Imagenes</h2>
+    <h3 class="seccion-descripcion">Estos son algunos capturas de mis codigos y de las paginas funcionando.</h3>
+
+    <!-- Carrusel -->
+    <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="assets/css-clon.png" alt="">
+            <p class="testimonio-texto">Vista previa del codigo de CSS, que fue usado para el proyecto de clon de google.</p>
+            <div class="testimonio-info">
+              <p class="cliente"></p>
+              <p class="cargo"></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="assets/c-htm-porta.png" alt="">
+            <p class="testimonio-texto">Vista previa del codigo HTML, que fue usado para el proyecto de portafolio.</p>
+            <div class="testimonio-info">
+              <p class="cliente"></p>
+              <p class="cargo"></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="assets/clongg.png" alt="">
+            <p class="testimonio-texto">Vista previa del clon de Google en uso</p>
+            <div class="testimonio-info">
+              <p class="cliente"></p>
+              <p class="cargo"></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="assets/primer.png" alt="">
+            <p class="testimonio-texto">Vista previa de mi primer pagina, usando HTML y CSS.</p>
+            <div class="testimonio-info">
+              <p class="cliente"></p>
+              <p class="cargo"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </section>
+
+<div class="espacio">
+
+</div>
+
+
+  <section id="contacto" class="contacto seccion-oscura">
+    <div class="container">
+      <div class="container text-center rectangulo d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col-12 col-md-4 seccion-titulo">
+            ¡COMPARTAMOS IDEAS!
+          </div>
+          <div class="col-12 col-md-4 descripcion">
+            Contáctame para iniciar juntos tu proyecto de desarrollo web soñado.
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="mailto:santosbosada14@gmail.com">
+              <button type="button">
+                Contacto
+                <i class="bi bi-envelope-check-fill"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <img class="foLOGO" src="assets/icono3.png" alt="Logo">
+    <p class="footer-texto text-center">Aprendiendo a crear arte.<br>Creemos un proyecto juntos, gracias a
+      TecnolochicasPRO.</p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+      <a href="https://twitter.com/SMelva59116" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-twitter"></i>
+      </a>
+      <a href="https://github.com/MelvaBosada" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/melva-santos-2963b52a3/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://www.instagram.com/jyojio4/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="mailto:santosbosada14@gmail.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope"></i>
+      </a>
+    </div>
+    <div class="derechos">Creado por Melva Santos (2022) &#169;</div>
+  </footer>
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="main.js"></script>
+
 </body>
+
 </html>
